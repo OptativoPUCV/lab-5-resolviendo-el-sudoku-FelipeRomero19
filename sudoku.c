@@ -45,7 +45,7 @@ void print_node(Node* n){
 
 int is_valid(Node* n){
   int fila, columna ;
-  int i, j;
+
   for(fila = 0; fila < 9 ; fila++)
   {
     int revisados[10] = {0};
@@ -74,7 +74,7 @@ int is_valid(Node* n){
     }
   }
 
-  int k=4,p; 
+  int i, j, k, p;
   for(p=0;p<9;p++){
     int i=3*(k/3) + (p/3) ;
     int j=3*(k%3) + (p%3) ;
