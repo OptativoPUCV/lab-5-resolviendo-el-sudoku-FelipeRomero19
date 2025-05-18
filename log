@@ -10,3 +10,29 @@ Sun, May 18, 2025  6:06:10 PM:
  tests:  2|4
 total_score: 15/70
 b108ca3
+Sun, May 18, 2025  6:08:56 PM: 
+ sudoku.c | 30 ++++++++++++++++++++++++++++++
+ 1 file changed, 30 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:67:27: error: expected ';' before ':' token
+     for(fila = 0; fila < 9: fila++)
+                           ^
+sudoku.c:70:7: error: expected ',' or ';' before 'if'
+       if(numero != 0)
+       ^~
+sudoku.c:69:11: error: unused variable 'numero' [-Werror=unused-variable]
+       int numero = n->sudo[fila][columna]
+           ^~~~~~
+sudoku.c:66:9: error: unused variable 'revisados' [-Werror=unused-variable]
+     int revisados[10] = {0};
+         ^~~~~~~~~
+sudoku.c:48:10: error: unused variable 'j' [-Werror=unused-variable]
+   int i, j ;
+          ^
+sudoku.c:48:7: error: unused variable 'i' [-Werror=unused-variable]
+   int i, j ;
+       ^
+cc1.exe: all warnings being treated as errors
+9a14937
