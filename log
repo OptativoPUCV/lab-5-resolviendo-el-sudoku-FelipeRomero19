@@ -148,3 +148,21 @@ sudoku.c:77:7: error: unused variable 'i' [-Werror=unused-variable]
        ^
 cc1.exe: all warnings being treated as errors
 e767f1a
+Sun, May 18, 2025  6:13:44 PM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:81:18: error: 'nodo' undeclared (first use in this function)
+     printf("%d ",nodo->sudo[i][j]);
+                  ^~~~
+sudoku.c:81:18: note: each undeclared identifier is reported only once for each function it appears in
+sudoku.c:80:9: error: variable 'j' set but not used [-Werror=unused-but-set-variable]
+     int j=3*(k%3) + (p%3) ;
+         ^
+sudoku.c:79:9: error: variable 'i' set but not used [-Werror=unused-but-set-variable]
+     int i=3*(k/3) + (p/3) ;
+         ^
+cc1.exe: all warnings being treated as errors
+f1f5673
