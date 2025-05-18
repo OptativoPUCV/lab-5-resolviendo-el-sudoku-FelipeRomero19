@@ -68,7 +68,7 @@ int is_valid(Node* n){
       int numero = n->sudo[fila][columna]
       if(numero != 0)
       {
-        if(revisados[numero] == 1)retrn 0;
+        if(revisados[numero] == 1)return 0;
         revisados[numero] = 1 ;
       }
     }
