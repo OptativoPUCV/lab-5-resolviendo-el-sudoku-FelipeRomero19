@@ -76,3 +76,9 @@ sudoku.c:65:9: error: unused variable 'revisados' [-Werror=unused-variable]
          ^~~~~~~~~
 cc1.exe: all warnings being treated as errors
 24de529
+Sun, May 18, 2025  6:09:57 PM: 
+ sudoku.c | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+ tests:  5|3
+total_score: 35/70
+a4d8a48

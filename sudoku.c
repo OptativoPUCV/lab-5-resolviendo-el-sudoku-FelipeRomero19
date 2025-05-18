@@ -63,9 +63,9 @@ int is_valid(Node* n){
   for(columna = 0; columna < 9; columna++)
   {
     int revisados[10] = {0};
-    for(fila = 0; fila < 9: fila++)
+    for(fila = 0; fila < 9; fila++)
     {
-      int numero = n->sudo[fila][columna]
+      int numero = n->sudo[fila][columna];
       if(numero != 0)
       {
         if(revisados[numero] == 1)return 0;
