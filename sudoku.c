@@ -172,7 +172,7 @@ Node* DFS(Node* initial, int* cont){
     Node* nodo_ady = (Node*) first(adyacen);
     while(nodo_ady != NULL)
     {
-      push(nodo, nodo_ady);
+      push(pila, nodo_ady);
       nodo_ady = (Node*) next(adyacen);
     }
     free(adyacen);

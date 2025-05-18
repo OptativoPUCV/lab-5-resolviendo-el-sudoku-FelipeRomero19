@@ -244,3 +244,9 @@ sudoku.c:175:12: error: 'nodo' undeclared (first use in this function)
             ^~~~
 sudoku.c:175:12: note: each undeclared identifier is reported only once for each function it appears in
 4f06dd1
+Sun, May 18, 2025  6:27:57 PM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  7|1
+total_score: 55/70
+0c25c80
