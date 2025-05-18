@@ -233,3 +233,14 @@ Sun, May 18, 2025  6:18:50 PM:
  tests:  7|1
 total_score: 55/70
 95da1d7
+Sun, May 18, 2025  6:27:40 PM: 
+ sudoku.c | 36 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'DFS':
+sudoku.c:175:12: error: 'nodo' undeclared (first use in this function)
+       push(nodo, nodo_ady);
+            ^~~~
+sudoku.c:175:12: note: each undeclared identifier is reported only once for each function it appears in
+4f06dd1
