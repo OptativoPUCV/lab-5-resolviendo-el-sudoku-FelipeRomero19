@@ -221,3 +221,9 @@ sudoku.c:80:9: error: 'p' undeclared (first use in this function)
      for(p = 0; p < 9; p++)
          ^
 c875532
+Sun, May 18, 2025  6:16:17 PM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  6|2
+total_score: 45/70
+f5dc636
