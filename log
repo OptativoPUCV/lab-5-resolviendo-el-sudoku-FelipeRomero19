@@ -36,3 +36,23 @@ sudoku.c:48:7: error: unused variable 'i' [-Werror=unused-variable]
        ^
 cc1.exe: all warnings being treated as errors
 9a14937
+Sun, May 18, 2025  6:09:06 PM: 
+ sudoku.c | 1 -
+ 1 file changed, 1 deletion(-)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:66:27: error: expected ';' before ':' token
+     for(fila = 0; fila < 9: fila++)
+                           ^
+sudoku.c:69:7: error: expected ',' or ';' before 'if'
+       if(numero != 0)
+       ^~
+sudoku.c:68:11: error: unused variable 'numero' [-Werror=unused-variable]
+       int numero = n->sudo[fila][columna]
+           ^~~~~~
+sudoku.c:65:9: error: unused variable 'revisados' [-Werror=unused-variable]
+     int revisados[10] = {0};
+         ^~~~~~~~~
+cc1.exe: all warnings being treated as errors
+084abc7
