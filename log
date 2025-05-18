@@ -190,3 +190,20 @@ sudoku.c:77:7: error: unused variable 'i' [-Werror=unused-variable]
        ^
 cc1.exe: all warnings being treated as errors
 57c7408
+Sun, May 18, 2025  6:14:51 PM: 
+ sudoku.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+Compilation failed
+In file included from test.c:5:0:
+sudoku.c: In function 'is_valid':
+sudoku.c:77:10: error: unused variable 'j' [-Werror=unused-variable]
+   int i, j, k, p;
+          ^
+sudoku.c:77:7: error: unused variable 'i' [-Werror=unused-variable]
+   int i, j, k, p;
+       ^
+sudoku.c:79:15: error: 'k' may be used uninitialized in this function [-Werror=maybe-uninitialized]
+     int i=3*(k/3) + (p/3) ;
+             ~~^~~
+cc1.exe: all warnings being treated as errors
+407759c
